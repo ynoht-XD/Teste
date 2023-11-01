@@ -14,8 +14,15 @@ header {
     height: 375px;
     margin: auto;
 }
+.img-cap-ios.rolagem {
+    background-color: #000000;
+    background-image: none;
+}
 
-
+.img-capa {
+    position: fixed;
+    top: 0;
+}
 
 
 .img-cap-seta {
@@ -275,17 +282,16 @@ padding-right: 6px;
 
 
 .sec-5 {
-    width: 100%;
-    margin: auto;
+    width: 375px;
+    margin: 0 auto;
     position: fixed;
+    left: 0;
+    right: 0;
     bottom: 0;
     padding: 26px 23px 8px 21px;
     background-color: #FFFFFF;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0px -5px 20px #110f0f3b;
-
-
-
 
 
 }
@@ -294,11 +300,13 @@ padding-right: 6px;
     height: 55px;
     margin: auto;
     display: flex;
+    opacity: 1;
 }
 .ouvir {
     display: flex;
     align-items: center;
-    justify-content: center;
+
+    margin-top: 8px;
 }
 
 .ouvir-play {
@@ -310,8 +318,7 @@ padding-right: 6px;
     height: 22px;
     border-radius: 50%;
     align-items: center;
-    margin-right: 11px;
-    margin-top: 10px;
+
 }
 .config-ouvir {
     width: 74px;
@@ -337,6 +344,7 @@ padding-right: 6px;
 }
 .tema-img img {
     border-radius: 50%;
+    box-shadow: 0px 0px 7px 0px #313131;
 }
 .tema-img {
     margin-right: 10px;
