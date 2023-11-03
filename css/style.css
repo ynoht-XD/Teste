@@ -442,4 +442,33 @@ padding-right: 6px;
 
 }
 
+.estilo {
+    -webkit-appearance: none;
+    background: #d3d3d3;
+    outline: none;
+    height: 20px;
+    border-radius: 9px;   
+}
+.estilo::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    box-shadow: #211A16 1px 1px 5px 1px;
+    background: rgb(238, 255, 0);
+    cursor: pointer;
+}
 
+.estilo::-webkit-progress-value {
+    background-color: #000000;
+}
+
+.estilo::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+
+    background: #2796ee;
+    cursor: pointer;
+}
