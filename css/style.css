@@ -9,7 +9,7 @@ body {
     src: url(../fonts/Figtree-VariableFont_wght.ttf);
 }
 header {
-    background-image: url(../img/imagem-1.png);
+    background-image: url(../img/imagem-1.webp);
     width: 375px;
     height: 375px;
     margin: auto;
@@ -356,7 +356,9 @@ padding-right: 6px;
     width: 22px;
     height: 22px;
 }
-
+.config-fonte {
+    height: 44px;
+}
 .config-tema {
     margin-right: 43px;
 }
@@ -369,7 +371,8 @@ padding-right: 6px;
     display: flex;
     align-items: center;
     width: 118px;
-    height: 44px;
+    height: 24px;
+
 }
 .fonte-a-A {
     font-size: 20px;
@@ -421,7 +424,12 @@ padding-right: 6px;
 }
 
 
-
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
 #range1 {
     -webkit-appearance: none;
     appearance: none; 
@@ -429,6 +437,8 @@ padding-right: 6px;
     outline: none;
     overflow: hidden;
     border-radius: 16px;
+    width: 80px;
+    height: 6px;
   }
   
   #range1::-webkit-slider-runnable-track {
