@@ -65,12 +65,10 @@ header {
 }
 .sec-1-2b-1 {
     display: flex;
-
     align-items: center;
 
 }
 .sec-1-2b-1 img {
-    width: 15px;
     height: 16px;
     padding-right: 10px;
 }
@@ -142,7 +140,7 @@ header {
 }
 .sec-3-comentario-button img {
     width: 16px;
-    height: 12px;
+    height: 14px;
     align-items: center;
 }
 .sec-3-curtir {
@@ -165,7 +163,7 @@ header {
 
 .sec-3-2-rcomentario p{
     width: 261px;
-    font-size: 12px;
+    font-size: 14px;
 
 }
 .sec-3-comentario-button-2 {
