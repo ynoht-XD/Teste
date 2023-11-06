@@ -476,6 +476,9 @@ padding-right: 6px;
   .sec-1-2b-cell {
     display: none;
   } 
+  .img-cap-ios-mobile {
+    display: none;
+  }
   
   @media (max-width: 778px) {
         .sec-1-2b {
@@ -503,6 +506,14 @@ padding-right: 6px;
         .sec-1-2b-1-cell p{
             padding-right: 10px;
         }
+        .img-cap-ios-mobile {
+            display: flex;
+            width: 375px;
+            height: 44px;
+          }
+          .img-cap-ios{
+            display: none;
+          }
 
 
 
