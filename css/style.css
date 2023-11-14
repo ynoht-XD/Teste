@@ -140,12 +140,15 @@ a:hover {
     margin: auto;
 }
 .sec-3-produtos {
+    margin-right: 10px;
+}
+.sec-3-produtos {
     width: 153px;
     height: 268px;
     background-color: #242435;
     border-radius: 10px;
     margin: auto;
-    margin-right: 200px;
+
 }
 .sec-3-produtos h3{
     font-size: 13px;
@@ -190,6 +193,7 @@ a:hover {
     width: 153px;
     height: 223px;
     margin: auto;
+
 }
 
 .sec-5 {
@@ -231,6 +235,10 @@ a:hover {
 
 }
 
+
+
+
+
 .sec-6 {
     width: 578px;
     margin: auto;
@@ -245,6 +253,8 @@ a:hover {
     color: #FFFF;
     width: 128px;
     height: 42px;
+    margin-right: 35px;
+    font-size: 12px;
 }
 
 .sec-6 h2 {
@@ -260,6 +270,10 @@ a:hover {
     margin-left: 30px;
     margin-top: 0;
 }
+
+
+
+
 
 .footer {
     width: 553px;
