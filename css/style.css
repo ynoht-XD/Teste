@@ -48,16 +48,33 @@ a:hover {
 
 .circ-b {
     position: absolute;
-    transform: translateX(-47px) translateY(7px);
+    transform: translateX(-47px) translateY(6px);
 }
 
 .circ {
     position: absolute;
-    transform: translateX(-92px) translateY(100px);
+    transform: translateX(55px) translateY(-25px);
 }
 .collection-aba {
     width: 153px;
 }
+.collection-aba h3{
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.collection-aba p{
+    font-size: 12px;
+    text-align: center;
+    color: #747470;
+    margin-top: 0;
+}
+
+
+
+
+
 
 .sec-1 {
     margin: auto;
@@ -67,11 +84,19 @@ a:hover {
     width: 527px;
 
 }
+.sec-1 span p{
+    padding: 0;
+}
 .sec-1 p {
     margin: 0;
+    width: 233px;
+    font-size: 11px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 .sec-1 h1 {
     margin: 0;
+    padding: 0;
 }
 .sec-1 button {
     color: #FFFF;
@@ -79,6 +104,11 @@ a:hover {
     width: 125px;
     height: 33px;
 }
+
+
+
+
+
 
 .sec-2 {
     width: 512px;
@@ -94,12 +124,20 @@ a:hover {
     width: 387px;
 }
 
+
+
 .sec-3 {
     display: flex;
     justify-content: center;
     width: 507px;
     margin: auto;
+}
 
+.sec-3-b {
+    display: flex;
+    justify-content: center;
+    width: 507px;
+    margin: auto;
 }
 .sec-3-produtos {
     width: 153px;
@@ -115,8 +153,9 @@ a:hover {
 .sec-3-produtos p{
     font-size: 12px;
 }
-.btt-sec-3 {
-    width: 70%;
+
+.title-3 h2{
+    width: 293px;
 }
 .btt-sec-3 button{
     background-color: transparent;
@@ -131,16 +170,35 @@ a:hover {
 }
 
 
+
+
 .sec-4 {
     width: 507px;
     margin: auto;
 }
-
+.img-sec-4 {
+    display: flex;
+    justify-content: center;
+}
+.sec-4-b {
+    width: 507px;
+    margin: auto;
+}
+.collection-aba {
+    background-color: #242435;
+    border-radius: 10px;
+    width: 153px;
+    height: 223px;
+    margin: auto;
+}
 
 .sec-5 {
     width: 543px;
     margin: auto;
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
+
 .sec-5-title button{
     border-radius: 10px;
     width: 121px;
@@ -148,24 +206,19 @@ a:hover {
     background-color: transparent;
     border: #242435 solid 1px;
     color: #FFFF;
-
 }
 
 .sec-5p p{
     width: 381px;
     font-size: 13px;
-
 }
 .sec-5-produtos h4{
-
     font-size: 12px;
 }
 
 .sec-5-produtos p{
     font-size: 11px;
     color: #FFFEF6;
-
-
 }
 .sec-5-b {
     width: 543px;
@@ -183,6 +236,7 @@ a:hover {
     margin: auto;
     background-color: #2C2C47;
     border-radius: 10px;
+    height: 194px;
 }
 
 .sec-6 button{
@@ -196,11 +250,15 @@ a:hover {
 .sec-6 h2 {
     font-size: 28px;
     width: 243px;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
 .sec-6 p {
     font-size: 14px;
     width: 407px;
+    margin-left: 30px;
+    margin-top: 0;
 }
 
 .footer {
