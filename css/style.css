@@ -138,16 +138,15 @@ a:hover {
     justify-content: center;
     width: 507px;
     margin: auto;
-}
-.sec-3-produtos {
-    margin-right: 10px;
+
 }
 .sec-3-produtos {
     width: 153px;
     height: 268px;
     background-color: #242435;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: auto;
+    cells
 
 }
 .sec-3-produtos h3{
@@ -155,6 +154,11 @@ a:hover {
 }
 .sec-3-produtos p{
     font-size: 12px;
+}
+.sec-3-produtos h4{
+    font-size: 14px;
+    width: 140px;
+    text-align: center;
 }
 
 .title-3 h2{
