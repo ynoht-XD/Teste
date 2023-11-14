@@ -206,8 +206,27 @@ a:hover {
 .footer {
     width: 553px;
     margin: auto;
+    margin-top: 25px;
+}
+.ul-footer li{
+    font-size: 10px;
+}
+
+.footer-final p {
+    font-size: 10px;
+}
+.footer-copy p{
+    width: 252px;
+
 }
 .logo-footer img {
     width: 105px;
     height: 23px;
+}
+
+.footer-final {
+    width: 553px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
