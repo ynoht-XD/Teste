@@ -297,7 +297,10 @@ p {
 
 
 
-
+.sec-12 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 .store-12 {
     display: flex;
     align-items: center;
@@ -312,6 +315,20 @@ p {
 
 .stories-12 {
     display: flex;
+    gap: 1.2rem;
+    overflow-y: auto;
+    scroll-snap-type: x mandatory;
+
+}
+
+.stories-12::-webkit-scrollbar {
+    display: none;
+}
+
+.sec-12-stories p {
+    width: 95px;
+    font-size:10px;
+    text-align: center;
 }
 .sec-12-storie img{
     width: 75px;
@@ -319,11 +336,16 @@ p {
     border-radius: 50%;
     padding: 10px;
 }
-.sec-12-stories p {
-    width: 95px;
-    font-size:10px;
-    text-align: center;
+
+.sec-12-storie {
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 .noticia {
     width: 345px;
