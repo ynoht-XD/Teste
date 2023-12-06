@@ -91,7 +91,7 @@ p {
     text-align: center;
     justify-content: center;
 }
-.sec-publicidade h5{
+.sec-publicidade p{
     color: #000000;
     margin: 0;
 }
@@ -997,6 +997,9 @@ p {
 }
 
 .final-container button:hover{
+    background-color: #FFFF00;
+}
+.final-container p:hover{
     background-color: #FFFF00;
 }
 
