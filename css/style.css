@@ -419,9 +419,18 @@ p {
     width: 345px;
     height: 294px;
     background-image: linear-gradient( to bottom right, #FFFF00, #FFCC00 );
-
     margin-bottom: 32px;
     position: relative;
+
+}
+.sec-9-back {
+    height: 100%;
+    background-image: url(../img/mac.webp);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 20% 2600%;
+    position: relative;
+    z-index: 3;
 }
 .sec-9-1 {
     display: flex;
@@ -433,6 +442,7 @@ p {
     margin: auto;
     padding-top: 25px;
 
+
 }
 .sec-9-1 h3{
     width: 156px;
@@ -442,8 +452,19 @@ p {
     width: 221px;
     font-size: 16px;
     padding-top: 12px;
+    position: relative;
+    transform: translateX(-35px);
 }
-
+.marker {
+    position: absolute;
+    transform: translateY(-25px);
+}
+.sec-9-1txt{
+    position: relative;
+    z-index: 2;
+    transform: translateX(30px);
+    
+}
 .sec-9-2 button{
     background-color: #211A16;
     border-radius: 10px;
@@ -454,7 +475,16 @@ p {
     position: absolute;
     bottom: 21px;
     transform: translateX(70px);
+    z-index: 4;
 
+}
+.fade-sec-9 {
+        width: 345px;
+        height: 85px;
+        position: absolute;
+        bottom: 0;
+        background-image: linear-gradient( to bottom, transparent, #FFFF00);
+        z-index: 1;
 }
 
 
@@ -875,6 +905,7 @@ p {
         display: none;
     }
 }
+
 .barra-horo{
     display: flex;
 }
@@ -924,6 +955,7 @@ p {
 
     position: relative;
     border-radius: 10px;
+    z-index: 10;
 
 
 }
