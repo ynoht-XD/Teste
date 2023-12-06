@@ -61,19 +61,21 @@ p {
     display: flex;
 }
 
-.sec-1-btt-1 p {
-    margin: 0;
-    padding-left: 10px;
-    padding-right: 20px;
-    font-size: 12px;
-}
 .sec-1-btt-1 button{
+    margin: 0;
     padding: 0;
     background-color: transparent;
     border: none;
     display: flex;
     align-items: center;
+    padding-right: 20px;
+    font-size: 12px;
+
 }
+.sec-1-btt-1 img{
+    padding-right: 6px;
+}
+
 .icon button{
     background-color: transparent;
     border: none;
@@ -94,6 +96,13 @@ p {
 .sec-publicidade p{
     color: #000000;
     margin: 0;
+
+}
+.img-publi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 
