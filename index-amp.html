@@ -1,0 +1,2500 @@
+<!DOCTYPE html>
+<html amp lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario do Vale</title>
+    <meta name="description" content="Três Trilhos inaugura área para operações logísticas.">
+    <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <style amp-custom>
+        @font-face {
+    font-family: figtree;
+    src: url(../fonts/Figtree-VariableFont_wght.ttf);
+}
+:root {
+    --cor1: #FFFFFF;
+    --cor2: #FFFF0000;
+    --cor3: #0000000D;
+    --cor4: #FDFDFD;
+    --cor5: #FDFDFD00;
+    --cor6: #0000001A;
+    --cor7: #C3BFBD;
+    --cor8: #CFCFCF;
+    --cor9: #00000033;
+    --cor10: #FFFF00;
+    --cor11: #FFCC00;
+    --cor12: #211A16;
+    --cor13: #707070;
+    --cor14: #000000;
+    --cor15: #1358E1;
+    --cor16: #3585CA;
+    --cor17: #69B0EC;
+    --cor18: #32C52C;
+    --cor19: #D53636;
+    --cor20: #8B1414;
+    --cor21: #F23737;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+    border-left: #e4e4e4 solid 2px;
+    border-right: #e4e4e4 solid 2px;
+    background-color: var(--cor1);
+    font-family: figtree;
+}
+
+header {
+    height: 291px;
+    position: relative;
+}
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+h6 {
+    margin: 0;
+    padding: 0;
+}
+.sec-1-btt {
+    margin: 0;
+    margin-top: 18px;
+    display: flex;
+}
+
+.sec-1-btt-1 button{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 12px;
+
+}
+.sec-1-btt-1 img{
+    padding-right: 6px;
+}
+
+.icon button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    padding-right: 14px;
+}
+
+
+.sec-publicidade {
+    width: 320px;
+    height: 50px;
+    background-color: #CFCFCF;
+    margin-bottom: 32px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.sec-publicidade p{
+    color: #000000;
+    margin: 0;
+
+}
+.img-publi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+
+.noticia {
+    width: 345px;
+    height: 386px;
+    margin: auto;
+
+}
+.noticia h3{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 24px;
+}
+.noticia-img img {
+    width: 345px;
+    height: 225px;
+
+}
+
+
+
+
+
+
+
+
+
+.header-container {
+    background-color: var(--cor10);
+    border-radius: 0px 0px 10px 10px;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+}
+.ios-bar img{
+    width: 375px;
+}
+.header-menu {
+    margin-left: 15px;
+    display: flex;
+    height: 26px;
+    align-items: center;
+}
+.menu-logo img{
+    width: 196px;
+    height: 26px;
+    margin-right: 50px;
+}
+.menu-icons img{
+    width: 20px;
+    height: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.img-capa img {
+    width: 375px;
+    height: 225px;
+    position: absolute;
+    transform: translateY(-10px);
+}
+
+
+
+.sec-1 {
+    margin: auto;
+    margin-top: 42px;
+    width: 345px;
+}
+.sec-1 h2 {
+    margin-bottom: 10px;
+}
+
+
+
+
+.sec-2 {
+    margin: auto;
+    width: 345px;
+    margin-top: 25px; 
+
+}
+.icon {
+            padding-left: 14px;
+    }
+.sec-2-not-1 {
+    margin-bottom: 24px;
+}
+.sec-2-not-1 h3{
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 8px;
+    border-left: #FFFF00 solid 4px;
+}
+.sec-2-not-1 p{
+    margin-bottom: 12px;
+    padding-left: 14px;
+}
+
+
+
+.sec-3 {
+    margin: auto;
+    width: 345px;
+}
+.sec-3-titulo {
+    display: flex;
+    margin-left: 14px;
+    width: 345px;
+    padding-top: 11px;
+    align-items: center;
+    
+}
+.titulo-3-txt h3{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.titulo-3-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.sec-3-container {
+    height: 274px;
+    width: 345px;
+    background-color: var(--cor10);
+    position: relative;
+    border-radius: 10px;
+}
+.sec-3-photo {
+    position: absolute;
+    transform: translateY(11px);
+}
+.sec-3-photo img{
+    width: 345px;
+    height: 225px;
+}
+.sec-3-button button{
+    width: 54px;
+    height: 20px;
+    background-color: #FFFF00;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(9px) translateY(-30px);
+}
+
+.sec-3-container2 {
+    margin-top: 30px;
+}
+
+
+.localizacao{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.check-3 {
+    width: 345px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.check-3 input:checked{
+    background-color: var(--cor10);
+    border: none;
+    width:16px;
+    height: 16px;
+}
+.check-3 input:hover{
+    background-color: var(--cor10);
+    border: none;
+    width:20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.rounded-checkbox {
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    appearance: none;
+    -webkit-appearance: none;
+    border: solid 2px #C3BFBD;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.sec-4 {
+    margin: auto;
+    width: 345px;
+    margin-top: 24px;
+}
+.sec-4-infor1 {
+    width: 345px;
+    height: 152px;
+    display: flex;
+    background-image: linear-gradient(to right, #FFCC00, #FFFF00);
+    margin-bottom: 32px;
+    border-radius: 10px;
+}
+.inform1 h3 {
+    padding: 18px 18px 14px 19px;
+    width: 186px;
+}
+.informe1-img {
+    padding-top: 18px;
+}
+.inform1 button{
+    background-color: transparent;
+    border: solid 1px #211A16;
+    border-radius: 10px;
+    width: 107px;
+    height: 36px;
+    margin-left: 18px;
+}
+
+
+
+.sec-4-infor2 {
+    width: 345px;
+    height: 152px;
+    background-image: linear-gradient(to right,#1358E1,#3585CA, #69B0EC);
+    margin-bottom: 32px;
+    border-radius: 10px;
+    display: flex; 
+    position: relative;
+
+}
+.sec-4-infor2 p,h4,h5{
+    color: #FFFFFF;
+}
+.numeros-grande{
+    display: flex;
+}
+.info-2 {
+    padding-left: 20px;
+}
+.info-2-img {
+    text-align: right;
+    float: right;
+    position: absolute;
+    right: 0;
+
+}
+.info2-txt-img {
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.numeros-grande {
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+    transform: translateY(-10px);
+}
+.numero-grau p{
+    font-size: 52px;
+}
+.min-max p{
+    font-size: 16px;
+}
+
+
+
+.sec-5 {
+    margin: auto;
+    width: 345px;
+}
+.sec-5-tit img{
+    width: 345px;
+    height: 225px;
+    margin: auto;
+}
+.sec-5 h3 {
+    font-size: 24px;
+    width: 345px;
+
+}
+.sec-5-tit p{
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+
+
+.sec-6 {
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    width: 345px;
+    height: 220px;
+    margin-bottom: 32px;
+}
+.sec-6-1 {
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.sec-6-1 h3{
+    font-size: 24px;
+    width: 86px;
+    padding-right: 15px;
+
+}
+.sec-6-1 p{
+    font-size: 16px;
+}
+.sec-6-1 button {
+    background-color: transparent;
+    border: var(--cor10) solid 1px;
+    border-radius: 10px;
+    width: 106px;
+    height: 36px;
+}
+
+
+
+.sec-9 {
+    margin: auto;
+    width: 345px;
+    height: 294px;
+    background-image: linear-gradient( to bottom right, #FFFF00, #FFCC00 );
+    margin-bottom: 32px;
+    position: relative;
+
+}
+.sec-9-back {
+    height: 100%;
+    background-image: url(../img/mac.webp);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 20% 2600%;
+    position: relative;
+    z-index: 3;
+}
+.sec-9-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 345px;
+    margin: auto;
+    padding-top: 25px;
+
+
+}
+.sec-9-1 h3{
+    width: 156px;
+    font-size: 24px;
+}
+.sec-9-1 p{
+    width: 221px;
+    font-size: 16px;
+    padding-top: 12px;
+    position: relative;
+    transform: translateX(-35px);
+}
+.marker {
+    position: absolute;
+    transform: translateY(-25px);
+}
+.sec-9-1txt{
+    position: relative;
+    z-index: 2;
+    transform: translateX(30px);
+    
+}
+.sec-9-2 button{
+    background-color: #211A16;
+    border-radius: 10px;
+    color: var(--cor1);
+    padding: 5px 10px 5px 10pxs;
+    font-size: 12px;
+    width: 206px;
+    position: absolute;
+    bottom: 21px;
+    transform: translateX(70px);
+    z-index: 4;
+
+}
+.fade-sec-9 {
+        width: 345px;
+        height: 85px;
+        position: absolute;
+        bottom: 0;
+        background-image: linear-gradient( to bottom, transparent, #FFFF00);
+        z-index: 1;
+}
+
+
+
+.sec-10 {
+    margin: auto;
+    width: 345px;
+    margin-bottom: 35px;
+    margin-top: 32px;
+}
+.sec-10-car {
+    padding-top: 20px;
+    display: flex;
+    overflow-y: auto;
+    gap: 1.2rem;
+    scroll-snap-type: x mandatory;
+}
+.sec-10 p{
+    margin:0;
+}
+
+.sec-10-div {
+    display: flex;
+    border: solid 1px #FFFF00;
+    width: 120px;
+    height: 71px;
+    border-radius: 10px;
+
+}
+.img-car {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+
+
+}
+.img-car img{
+    width: 16px;
+    height: 16px;
+    padding-right: 10px;
+}
+.sec-10-div {
+    width: 122px;
+    height: 50px;
+}
+.sec-10-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 122px;
+}
+.sec-10-car::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.sec-11 {
+    margin: auto;
+    margin-top: 36px;
+    width: 345px;
+}
+.sec-11-noticias {
+    display: flex;
+    margin-bottom: 32px;
+}
+.img-11-noticia img{
+    width: 110px;
+    height: 110px;
+}
+.txt-11 {
+    padding-left: 15px;
+}
+.txt-11 h3{
+    width: 220px;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+.txt-11 p{
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+
+.sec-12 {
+    margin: auto;
+    width: 345px;
+
+    margin-bottom: 40px;
+}
+.store-12 {
+    display: flex;
+    align-items: center;
+}
+.store-12 img{
+    width: 28px;
+    padding-right: 10px;
+}
+.store-12 h3 {
+    font-size: 32px;
+}
+
+.stories-12 {
+    margin-top: 18px;
+    display: flex;
+    gap: 1.2rem;
+    overflow-y: auto;
+    scroll-snap-type: x mandatory;
+
+}
+
+.stories-12::-webkit-scrollbar {
+    display: none;
+}
+
+.sec-12-stories p {
+    width: 95px;
+    font-size:10px;
+    text-align: center;
+}
+.sec-12-storie img{
+    width: 75px;
+    border: 2px dashed var(--cor10);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.sec-12-storie {
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sec-13 {
+    width: 354px;
+    margin: auto;
+}
+.title-13 {
+    padding-top: 23px;
+    display: flex;
+    align-items: center;
+}
+.title-13 h3 {
+    font-size: 32px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.button-13 {
+    margin-bottom: 21px;
+}
+.button-13 button {
+    background-color: #FFFF00;
+    border-radius: 10px;
+    height: 20px;
+    border: none;
+    font-size: 12px;
+    padding: 3px 9px 3px 9px;
+}
+
+
+
+.sec-14 {
+    width: 345px;
+    margin: auto;
+
+
+}
+.sec-3-container{
+        height: 250px;
+    }
+    .sec-3-titulo{
+        display: flex;
+        align-items: center;
+    }
+    .titulo-3-txt {
+        align-items: center;
+        padding-top: 0;
+    }
+.barra-1 {
+    display: flex;
+    align-items: center;
+    background-color: #FFFF00;
+    height: 49px;
+    border-radius: 10px 10px 0 0;
+}
+.barra-1 img {
+    padding-right: 12px;
+    padding-top: 13px;
+    padding-left: 17px;
+}
+.barra-1 h3{
+    padding-right: 61px;
+    font-size: 22px;
+}
+.barra-1 button {
+    background-color: #D53636;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 127px;
+    height: 20px;
+}
+.container-sec-14 {
+    background-color: #FFFF00;
+    border-radius: 10px;
+}
+
+.titulo-sec-14 h4{
+    font-size: 16px;
+    color:#211A16 ;
+    margin: 0;
+    margin-top: 24px;
+}
+.titulo-sec-14 p{
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+
+
+
+.sec-15 {
+    margin-top: 24px;
+}
+.video-txt {
+    display: flex;
+    width: 345px;
+    margin: auto;
+    margin-top: 16px;
+}
+.txt-15 {
+    padding-left: 15px;
+}
+.txt-15 h3 {
+    font-size: 16px;
+    width: 205px;
+}
+.txt-15 p {
+    font-size: 12px;
+    width: 205px;
+    margin-top: 6px;
+}
+.txt-15 button {
+    background-color: #FFFF00;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 12px;
+    width: 42px;
+    height: 20px;
+    margin-top: 18px;
+
+}
+.video-tb{
+    position: absolute;
+    z-index: 1;
+    float: left;
+
+}
+.fade-15 {
+    width: 125px;
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    background-image: linear-gradient( to bottom, transparent, #252525);
+    z-index: 3;
+    border-radius: 10px;
+}
+
+
+
+
+
+.loteria {
+    width: 345px;
+    margin: auto;
+    margin-top: 32px;
+}
+.lot {
+    display: flex;
+}
+.loteria-1 {
+    padding-right: 20px;
+}
+.barra-txt h5{
+    color: #000000;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 6px;
+
+}
+.barra-txt p {
+    padding-bottom: 22px;
+    font-size: 15px;
+}
+.lot-1 {
+    display: flex;
+}
+.lot-1-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12px;    
+
+}
+.lot-1-txt h6 {
+    font-size: 12px;
+}
+.lot-1-txt p {
+    font-size: 12px;
+}
+
+
+.cambio {
+    width: 345px;
+    margin: auto;
+    margin-bottom: 46px;
+
+}
+.cambio-geral {
+    display: flex;
+}
+.cambio-1-1 {
+    display: flex;
+    padding-top: 9px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cambio-geral p{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-size: 14px;
+}
+.cambio-1-1 button{
+    border: none;
+    border-radius: 10px;
+    background-color: #852222;
+    color: white;
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 5px;
+
+}
+.cambio-2 {
+    padding-left: 29px;
+    padding-right: 15px;
+}
+.cambio-1 button {
+    background-color: rgb(36, 102, 33);
+}
+
+
+
+.sec-16 {
+    width: 345px;
+    margin: auto;
+
+}
+.sec-3-container{
+        height: 250px;
+    }
+
+
+
+.sec-17 {
+    width: 345px;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 52px;
+}
+.barra-17 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+
+}
+.check-3{
+        padding: 0;
+        justify-content: right;
+    }
+.coluns {
+    display: flex;
+}
+.colum1 {
+    margin-right: 15px;
+}
+.colum1 h4 {
+    font-size: 18px;
+}
+.colum1 h4{
+    color: #000000;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+
+
+
+.horo{
+    width: 345px;
+    margin: auto;
+
+}
+.sec-horo-car-check{
+        display: flex;
+        gap: 1.2rem;
+        overflow-y: auto;
+        scroll-snap-type: x mandatory;
+
+
+
+    }
+    .sec-horo-div{
+            padding-top: 18px;
+            width: 44px;
+
+        }
+    .sec-horo-car-check::-webkit-scrollbar {
+        display: none;
+    }
+    .img-horo{
+                width: 44px;
+                height: 44px;
+                border: 1px solid #EEEEEE;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .img-horo:hover {
+                background-color: #000000;
+            }
+            .sec-horo-div1{
+                padding-top: 6px;
+                align-items: center;
+                text-align: center;
+            }
+
+.barra-horo{
+    display: flex;
+}
+.barra-horo-txt h3{
+    font-size: 14px;
+
+}
+.barra-horo-txt p{
+    font-size: 12px;
+    
+}
+.por-horo{
+    padding-left: 125px;
+    display: flex;
+    align-items: center;
+}
+.por-horo p{
+    padding-right: 8px;
+}
+.sec-horo-div1 p {
+    font-size: 10px;
+}
+.txt-horo-check {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 305px;
+}
+
+
+
+
+#more {
+    width: 345px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#more button{
+    width: 156px;
+    height: 36px;
+    background-color: #FFFF00;
+    border: none;
+    border-radius: 10px;
+}
+.barra-final1 {
+    height: 200px;
+}
+.barra-final {
+
+    position: relative;
+    border-radius: 10px;
+    z-index: 10;
+
+
+}
+.barra-container {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    background-color: var(--cor1);
+    box-shadow: 1px 1px 5px 1px #0000001A;
+    height: 112px;
+    border-radius: 10px;
+    width: 375px;
+}
+.final-container {
+    position: relative;
+    justify-content: space-between;
+    width: 44px;
+    margin: auto;
+}
+.final-container button{
+    border: none;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.final-container p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-container button:hover{
+    background-color: #FFFF00;
+}
+.final-container p:hover{
+    background-color: #FFFF00;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="header-container">
+                <div class="ios-bar">
+                    <img src="./img/ios-bar@2x.png" alt="ios-bar">
+                </div>
+                <div class="header-menu">
+                    <div class="menu-logo">
+                        <img src="./img/logo@2x.png" alt="Logo">
+                    </div>
+                    <div class="menu-icons">
+                        <img src="./img/notificações@2x.png" alt="sino" style="width: 18px; height: 20px;">
+                        <img src="./img/busca@2x.png" alt="lupa">
+                        <img src="./img/menu@2x.png" alt="menu">
+                    </div>
+                </div>
+            </div>
+            <div class="img-capa">
+                <img src="./img/photo-main.webp" alt="img capa" style="border-radius: 10px; width: 375px; height: 225px;">
+            </div>
+        </header>
+
+        <section class="sec-1">
+            <h2>Três Trilhos inaugura área para operações logísticas no Sul Fluminense</h2>
+            <p><span>25 de outubro de 2023, 09:33h</span></p>
+            <div class="sec-1-btt">
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                </div>
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/comentar.svg" alt="Comentar-btt">Comentar</button>
+                </div>
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/compartilhar.svg" alt="Compartilhar-btt">Compartilhar</button>
+                </div>
+            </div>
+        
+        </section>
+
+        <section class="sec-2">
+            <div class="sec-2-noticias">
+                <div class="sec-2-not-1">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+                <div class="sec-2-not-1">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                        <div class="icon">
+                            <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                            <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                            <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                        </div>
+                </div>
+                <div class="sec-2-not-1">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sec-3">
+            <div class="sec-3-container">
+                <div class="sec-3-titulo">
+                    <div class="titulo-3-img">
+                        <img src="./img/promoções.svg" alt="Promo">
+                    </div>
+                    <div class="titulo-3-txt">
+                        <h3>Promoções</h3>
+                    </div>
+                </div>
+
+                <div class="sec-3-photo"> 
+                    <img src="./img/photo@3x-1.png" alt="Dançarina" style="width: 345px;">
+                    <div class="sec-3-button">
+                        <button><strong>aberta</strong></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sec-3-container2">
+                <h2>Que tal ganhar dois ingressos para a estreia do filme The Eras Tour? Participe!</h2>
+                <div class="localizacao">
+                    <img src="./img/localização.svg" alt="localizador">
+                    <p>Praia de Botafogo, 400 - Botafogo</p>
+                </div>
+
+                <div class="sec-1-btt">
+                    <div class="sec-1-btt-1">
+                        <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                    </div>
+                    <div class="sec-1-btt-1">
+                        <button><img src="./img/comentar.svg" alt="Comentar-btt">Comentar</button>
+                    </div>
+                    <div class="sec-1-btt-1">
+                        <button><img src="./img/promoções.svg" alt="promoção-btt" style="width: 18px;">Quero participar</button>
+                    </div>
+                </div>
+
+                <div class="check-3">
+                        <input type="checkbox" class="rounded-checkbox" aria-label="Search">
+                        <input type="checkbox" class="rounded-checkbox" aria-label="Search">
+                        <input type="checkbox" class="rounded-checkbox" aria-label="Search">
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="sec-4">
+            <div class="sec-4-infor1">
+                <div class="inform1">
+                    <h3>Confira todas as promoções e vouchers exclusivos para você</h3>
+                    <button>Acesse <img src="./img/seta.svg" alt=""></button>
+                </div>
+                <div class="informe1-img">
+                    <img src="./img/promoções-ilustração.svg" alt="mao no micro" style="width: 105px;">
+                </div>
+            </div>
+
+            <div class="sec-4-infor2">
+                <div class="info-2">
+                    <h4>Rio de Janeiro</h4>
+                    <h5>Quarta-feira, 25</h5>
+                    <div class="numeros-grande">
+                        <div class="numero-grau">
+                            <p>23°</p>
+                        </div>
+                        <div class="min-max">
+                            <p>min 22°</p>
+                            <p><strong>máx 24°</strong></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="info-2-img">
+                    <img src="./img/sun.svg" alt="SOL">
+                    <div class="info2-txt-img">
+                        <p>Chuva: 30%</p>
+                        <p>Umidade: 89% </p>
+                        <p>Vento 18 km/h</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="sec-5">
+            <div class="noticia">
+                <div class="noticia-img">
+                    <img src="./img/photo@3x-2.png" alt="Deputada Tia Ju">
+                </div>
+                <h3>Deputada Tia Ju participa de Workshop de Conscientização sobre o Câncer de Mama, org...</h3>
+                <p>25 de outubro de 2023, 09:33h</p>
+            </div>
+            <div class="sec-1-btt">
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                </div>
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/comentar.svg" alt="Comentar-btt">Comentar</button>
+                </div>
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/compartilhar.svg" alt="Compartilhar-btt">Compartilhar</button>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section class="sec-6">
+            <div class="sec-6-1">
+                <h3>Edição de Hoje</h3>
+                <p>25 de nov</p>
+                <button>Assine ja </button>
+            </div>
+            <div class="sec-6-img">
+            <img src="./img/diario.png" alt="Diario do Vale" style="height: 220px; width: 200px;">
+            </div>
+        </section>
+
+        <section class="noticia">
+            <div class="noticia-img">
+                <img src="./img/photo@3x-3.png" alt="Novembro azul">            
+            </div>
+            <div class="noticia-txt">
+                <h2>Resende prepara calendário de atividades para o 'novembro azul'</h2>
+                <p>25 de outubro de 2023, 09:33h</p>
+            </div>
+            <div class="sec-1-btt">
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                </div>
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/comentar.svg" alt="Comentar-btt">Comentar</button>
+                </div>
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/compartilhar.svg" alt="Compartilhar-btt">Compartilhar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="noticia">
+            <div class="noticia-img">
+                <img src="./img/photo@3x12.png" alt="Barra-Mansa">
+            </div>
+            <div class="noticia-txt">
+                <h2>Resende prepara calendário de atividades para o 'novembro azul'</h2>
+                <p>25 de outubro de 2023, 09:33h</p>
+            </div>
+            <div class="sec-1-btt">
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                </div>
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/comentar.svg" alt="Comentar-btt">Comentar</button>
+                </div>
+                <div class="sec-1-btt-1">
+                    <button><img src="./img/compartilhar.svg" alt="Compartilhar-btt">Compartilhar</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sec-9">
+            <div class="sec-9-back">
+                <div class="sec-9-1">
+                    <div class="sec-9-1txt">
+                        <h3>Classificados Diário do Vale</h3>
+                        <p>Confira as ofertas e publique seus anúncios conosco!</p>
+                    </div>
+                    <div class="marker">
+                        <img src="./img/marker.svg" alt="marcador">
+                    </div>
+
+                </div>
+                <div class="sec-9-2">
+                    <button>classificados.diariodovale.com.br/</button>
+                </div>
+                <div class="fade-sec-9">
+                    
+                </div>
+            </div>
+        </section>
+
+        <div class="sec-publicidade">
+            <div class="img-publi">
+                <p>PUBLICIDADE</p>
+            </div>
+        </div>
+
+        <section class="sec-10">
+            <h3>Siga o Diário do Vale nas redes sociais</h3>
+            <div class="sec-10-car">
+                <div class="sec-10-div">
+                    <div class="img-car">
+                        <img src="./img/instagram.svg" alt="insta">
+                    </div>
+                    <div class="sec-10-div1">
+                        <p><span><strong>Instagram</strong></span></p>
+                        <p>@diariodovale</p>
+                    </div>
+                </div>
+                <div class="sec-10-div">
+                    <div class="img-car">
+                        <img src="./img/facebook.svg" alt="face">
+                    </div>
+                    <div class="sec-10-div1">
+                        <p><span><strong>Instagram</strong></span></p>
+                        <p>@diariodovale</p>
+                    </div>
+                </div>
+
+                <div class="sec-10-div">
+                    <div class="img-car">
+                        <img src="./img/x.svg" alt="rede social x">
+                    </div>
+                    <div class="sec-10-div1">
+                        <p><span><strong>Instagram</strong></span></p>
+                        <p>@diariodovale</p>
+                    </div>
+                </div>
+
+                <div class="sec-10-div">
+                    <div class="img-car">
+                        <img src="./img/youtube.svg" alt="YT">
+                    </div>
+                    <div class="sec-10-div1">
+                        <p><span><strong>Instagram</strong></span></p>
+                        <p>@diariodovale</p>
+                    </div>
+                </div>
+
+                <div class="sec-10-div">
+                    <div class="img-car">
+                        <img src="./img/tiktok.svg" alt="tikt">
+                    </div>
+                    <div class="sec-10-div1">
+                        <p><span><strong>Instagram</strong></span></p>
+                        <p>@diariodovale</p>
+                    </div>
+                </div>
+
+                <div class="sec-10-div">
+                    <div class="img-car">
+                        <img src="./img/whatsapp.svg" alt="whats">
+                    </div>
+                    <div class="sec-10-div1">
+                        <p><span><strong>whatsapp</strong></span></p>
+                        <p>(24)9999-9999</p>
+                    </div>
+                </div>
+
+                <div class="sec-10-div">
+                    <div class="img-car">
+                        <img src="./img/telegram.svg" alt="tele">
+                    </div>
+                    <div class="sec-10-div1">
+                        <p><span><strong>whatsapp</strong></span></p>
+                        <p>(24)9999-9999</p>
+                    </div>
+                </div>
+
+                <div class="sec-10-div">
+                    <div class="img-car">
+                        <img src="./img/email.svg" alt="ema">
+                    </div>
+                    <div class="sec-10-div1">
+                        <p><span><strong>whatsapp</strong></span></p>
+                        <p>(24)9999-9999</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-11">
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x-4.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Senado aprova ampliação da Lei de Cotas e inclui quilombolas</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/princesa.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Espetáculo “As histórias das princesas e seus príncipes” chega em Resende e Barra ...</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="sec-12">
+            <div class="store-12">
+                <img src="./img/stories@2x7.png" alt="stories" style="width: 28px; height: 28px;">
+                <h3>Stories</h3>
+            </div>
+            <div class="stories-12">
+                <div class="sec-12-stories">
+                    <div class="sec-12-storie">
+                        <img src="./img/storie@2x8.png" alt="storie">
+                    </div>
+                    <p>Lembrem quem eram os craques da...</p>
+                </div>
+
+                <div class="sec-12-stories">
+                    <div class="sec-12-storie">
+                        <img src="./img/storie@2x9.png" alt="storie">
+                    </div>
+                    <p>Lembrem quem eram os craques da...</p>
+                </div>
+
+                <div class="sec-12-stories">
+                    <div class="sec-12-storie">
+                        <img src="./img/storie@2x10.png" alt="storie">
+                    </div>
+                    <p>Lembrem quem eram os craques da...</p>
+                </div>
+
+                <div class="sec-12-stories">
+                    <div class="sec-12-storie">
+                        <img src="./img/mulher-stor.png" alt="storie">
+                    </div>
+                    <p>Lembrem quem eram os craques da...</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="sec-publicidade">
+            <div class="img-publi">
+                <p>PUBLICIDADE</p>
+            </div>
+
+        </div>
+
+
+        <section class="sec-13">
+            <div class="title-button">
+                <div class="title-13">
+                    <h3>Polícia</h3>
+                    <img src="./img/link@2x.png" alt="seta" style="width: 14px; height: 14px;">
+                </div>
+                <div class="button-13">
+                    <button>prefeitura</button>
+                    <button>rio</button>
+                    <button>pm</button>
+                    <button>zona oeste</button>
+                </div>
+            </div>
+                <div class="noticia">
+                    <div class="noticia-img">
+                        <img src="./img/photo@2x11.png" alt="photo">
+                    </div>
+                    <h3>Prefeito do Rio divulga vídeo com flagrante de incêndio criminoso</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="sec-1-btt">
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/comentar.svg" alt="Comentar-btt">Comenta</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/compartilhar.svg" alt="Compartilhar-btt">Compartilhar</button>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <section class="sec-11">
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x-4.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Quatro presos por incendiar ônibus na Zona Oeste passam por audiência de custódia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/reuniao1.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>MPRJ e Polícia Civil traçam estratégia de atuação integrada no combate ao cri...</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/arma.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>PM apreende submetralhadora em operação no Santo Agostinho</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Quatro presos por incendiar ônibus na Zona Oeste passam por audiência de custódia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="sec-14">
+            <div class="sec-3-container">
+                <div class="sec-3-titulo">
+                    <div class="titulo-3-img">
+                        <img src="./img/podcasts@2x.png" alt="micro" style="width: 19px; height: 24px;">
+                    </div>
+                    <div class="titulo-3-txt">
+                        <div class="barra-1">
+                            <h3>Podcasts</h3>
+                            <button>AO VIVO AGORA!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec-3-photo"> 
+                    <img src="./img/live@2x.png" alt="Dançarina" style="width: 345px; height: 194px;">
+                </div>
+            </div>
+
+
+            <div class="titulo-sec-14">
+                <h4>Assista à Live: Diário Delas</h4>
+                <p>Iniciou às 20:00</p>
+            </div>
+
+
+        </section>
+
+
+        <section class="sec-15">
+            <div class="video-txt">
+                <div class="video-15">
+
+                    <div class="video-tb">
+                        <img src="./img/photo@2x15.png" alt="copa diarinho" style="width: 125px; height: 97px;">
+                    </div>
+                    <div class="fade-15">
+                        <img src="./img/play.png" alt="pla" style="width: 44px; height: 44px;">
+                    </div>
+
+                </div>
+                <div class="txt-15">
+                    <h3>Copa Diarinho | Final Sub17 Série Prata</h3>
+                    <p>há 4 meses</p>
+                    <button>3:57</button>
+                </div>
+                
+            </div>
+
+            <div class="video-txt">
+                <div class="video-15">
+                    <div class="video-tb">
+                        <img src="./img/video.png" alt="copa diarinho" style="width: 125px; height: 97px;">
+                    </div>
+                    <div class="fade-15">
+                        <img src="./img/play.png" alt="pla" style="width: 44px; height: 44px;">
+                    </div>
+                
+                </div>
+                <div class="txt-15">
+                    <h3>ABERTURA DA XVIII COPA DIARINHO - 06 DE MAIO ...</h3>
+                    <p>há 4 meses</p>
+                    <button>3:57</button>
+                </div>
+            </div>
+            <div class="video-txt">
+
+                <div class="video-15">
+                    <div class="video-tb">
+                        <img src="./img/video3.png" alt="copa diarinho" style="width: 125px; height: 97px;">
+                    </div>
+                    <div class="fade-15">
+                        <img src="./img/play.png" alt="pla" style="width: 44px; height: 44px;">
+                    </div>
+                
+                </div>
+                <div class="txt-15">
+                    <h3>#LIVE DIÁRIO DELAS</h3>
+                    <p>há 4 meses</p>
+                    <button>3:57</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="loteria">
+            <div class="barra-txt">
+                <h2>Loterias</h2>
+                <p><strong>Selecione uma loteria</strong></p>
+            </div>
+            <div class="lot">
+                <div class="loteria-1">
+                    <div class="lot-1">
+                        <div class="lot-1-img">
+                            <img src="./img/images.png" alt="lot-1" style="width: 30px; height: 30px; border: 1px solid rgb(180, 180, 180); border-radius: 50%; padding: 10px;">
+                        </div>
+                        <div class="lot-1-txt">
+                            <p><strong>Concurso 2894</strong></p>
+                            <p>19/08/2023</p>
+                        </div>
+                    </div>
+                    <div class="lot-1">
+                        <div class="lot-1-img">
+                            <img src="./img/images.png" alt="lot-1" style="width: 30px; height: 30px; border: 1px solid rgb(180, 180, 180); border-radius: 50%; padding: 10px;">
+                        </div>
+                        <div class="lot-1-txt">
+                            <p><strong>Concurso 2894</strong></p>
+                            <p>19/08/2023</p>
+                        </div>
+                    </div>
+                    <div class="lot-1">
+                        <div class="lot-1-img">
+                            <img src="./img/images.png" alt="lot-1" style="width: 30px; height: 30px; border: 1px solid rgb(180, 180, 180); border-radius: 50%; padding: 10px;">
+                        </div>
+                        <div class="lot-1-txt">
+                            <p><strong>Concurso 2894</strong></p>
+                            <p>19/08/2023</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="loteria-2">
+                    <div class="lot-1">
+                        <div class="lot-1-img">
+                            <img src="./img/images.png" alt="lot-1" style="width: 30px; height: 30px; border: 1px solid rgb(180, 180, 180); border-radius: 50%; padding: 10px;">
+                        </div>
+                        <div class="lot-1-txt">
+                            <p><strong>Concurso 2894</strong></p>
+                            <p>19/08/2023</p>
+                        </div>
+                    </div>
+                    <div class="lot-1">
+                        <div class="lot-1-img">
+                            <img src="./img/images.png" alt="lot-1" style="width: 30px; height: 30px; border: 1px solid rgb(180, 180, 180); border-radius: 50%; padding: 10px;">
+                        </div>
+                        <div class="lot-1-txt">
+                            <p><strong>Concurso 2894</strong></p>
+                            <p>19/08/2023</p>
+                        </div>
+                    </div>
+                    <div class="lot-1">
+                        <div class="lot-1-img">
+                            <img src="./img/images.png" alt="lot-1" style="width: 30px; height: 30px; border: 1px solid rgb(180, 180, 180); border-radius: 50%; padding: 10px;">
+                        </div>
+                        <div class="lot-1-txt">
+                            <p><strong>Concurso 2894</strong></p>
+                            <p>19/08/2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sec-13">
+            <div class="title-button">
+                <div class="title-13">
+                    <h3>Política</h3>
+                    <img src="./img/link@2x.png" alt="seta" style="width: 14px; height: 14px;">
+                </div>
+                <div class="button-13">
+                    <button>crimes na internet</button>
+                    <button>tiradentes</button>
+                    <button>violação</button>
+
+                </div>
+            </div>
+                <div class="noticia">
+                    <div class="noticia-img">
+                        <img src="./img/photo@2x16.png" alt="photo">
+                    </div>
+                    <h3>SaferNet fala sobre enfrentamento a crimes na Internet</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="sec-1-btt">
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/comentar.svg" alt="Comentar-btt">Comentar</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/compartilhar.svg" alt="Compartilhar-btt">Compartilhar</button>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <section class="sec-11">
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/tres.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Célia Jordão entrega Medalha Tiradentes ao Cônsul-Geral do Japão no RJ</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/um.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Dinho defende voto a favor de contas de Neto</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/munir.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Munir integra Frente de Combate à Violação dos Direitos de Crianças e Adol...</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/Ednardo.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Ednardo sanciona lei que institui parceria entre prefeitura e organizações qu...</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+
+
+        <div class="sec-publicidade">
+            <div class="img-publi">
+                <p>PUBLICIDADE</p>
+            </div>
+
+        </div>
+
+        
+        <section class="sec-13">
+            <div class="title-button">
+                <div class="title-13">
+                    <h3>Economia</h3>
+                    <img src="./img/link@2x.png" alt="seta" style="width: 14px; height: 14px;">
+                </div>
+                <div class="button-13">
+                    <button>inflação</button>
+                    <button>ibge</button>
+                    <button>cotação</button>
+
+                </div>
+            </div>
+                <div class="noticia">
+                    <div class="noticia-img">
+                        <img src="./img/money.png" alt="photo">
+                    </div>
+                    <h3>Prévia da inflação oficial fica em 0,21% em outubro, informa IBGE</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="sec-1-btt">
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/comentar.svg" alt="Comentar-btt">Comenta</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/compartilhar.svg" alt="Compartilhar-btt">Compartilhar</button>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <section class="sec-11">
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x-4.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="cambio">
+            <div class="barra-txt">
+                <h2>Câmbio</h2>
+                <p><strong>Atualizado em 25/10/2023</strong></p>
+            </div>
+
+            <div class="cambio-geral">
+                <div class="cambio-1">
+                    <p><strong>R$5,00</strong></p>
+                    <div class="cambio-1-1">
+                        <p>Dólar</p>
+                        <button><strong>+0,01%</strong></button>
+                    </div>
+                </div>
+                <div class="cambio-2">
+                    <p><strong>R$5,28</strong></p>
+                    <div class="cambio-1-1">
+                        <p>Euro</p>
+                        <button><strong>-0,25%</strong></button>
+                    </div>
+                </div>
+                <div class="cambio-3">
+                    <p><strong>R$ 113.801,79</strong></p>
+                    <div class="cambio-1-1">
+                        <p>Bitcoin</p>
+                        <button><strong>-2.11%</strong></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                
+        <section class="sec-13">
+            <div class="title-button">
+                <div class="title-13">
+                    <h3>Cidades</h3>
+                    <img src="./img/link@2x.png" alt="seta" style="width: 14px; height: 14px;">
+                </div>
+                <div class="button-13">
+                    <button>crimes na internet</button>
+                    <button>tiradentes</button>
+                    <button>violação</button>
+
+                </div>
+            </div>
+                <div class="noticia">
+                    <div class="noticia-img">
+                        <img src="./img/cachorro.png" alt="photo">
+                    </div>
+                    <h3>Prefeito do Rio divulga vídeo com flagrante de incêndio criminoso</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="sec-1-btt">
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/comentar.svg" alt="Comentar-btt">Comentar</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/compartilhar.svg" alt="Compartilhar-btt">Compartilhar</button>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <section class="sec-11">
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x-4.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="sec-16">
+            <div class="sec-3-container">
+                <div class="sec-3-titulo">
+                    <div class="titulo-3-img">
+                        <img src="./img/vídeos@2x.png" alt="Promo" style="width: 24px">
+                    </div>
+                    <div class="titulo-3-txt">
+                        <h3>Vídeos</h3>
+                    </div>
+                </div>
+
+                <div class="sec-3-photo"> 
+                    <img src="./img/video.png" alt="video" style="width: 345px; height: 194px;">
+                    <div class="sec-3-button">
+                        <button><strong>3:31</strong></button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="titulo-sec-14">
+                <h4>CDL-VR lança aplicativo e campanha de Natal</h4>
+                <p>28 de Novembro de 2023</p>
+            </div>
+        </section>
+
+        <section class="sec-15">
+            <div class="video-txt">
+                <div class="video-15">
+                    <img src="./img/photo@2x15.png" alt="copa diarinho" style="width: 125px; height: 97px;">
+                </div>
+                <div class="txt-15">
+                    <h3>Copa Diarinho | Final Sub17 Série Prata</h3>
+                    <p>há 4 meses</p>
+                    <button>3:57</button>
+                </div>
+            </div>
+            <div class="video-txt">
+                <div class="video-15">
+                    <img src="./img/photo@2x15.png" alt="copa diarinho" style="width: 125px; height: 97px;">
+                </div>
+                <div class="txt-15">
+                    <h3>Copa Diarinho | Final Sub17 Série Prata</h3>
+                    <p>há 4 meses</p>
+                    <button>3:57</button>
+                </div>
+            </div>
+            <div class="video-txt">
+                <div class="video-15">
+                    <img src="./img/photo@2x15.png" alt="copa diarinho" style="width: 125px; height: 97px;">
+                </div>
+                <div class="txt-15">
+                    <h3>Copa Diarinho | Final Sub17 Série Prata</h3>
+                    <p>há 4 meses</p>
+                    <button>3:57</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-17">
+            <div class="barra-17">
+                <h2>Colunas</h2>
+                
+                <div class="check-3">
+                    <input type="checkbox" class="rounded-checkbox" aria-label="Search">
+                    <input type="checkbox" class="rounded-checkbox" aria-label="Search">
+                    <input type="checkbox" class="rounded-checkbox" aria-label="Search">
+                 </div>
+            </div>
+            <div class="coluns">
+                <div class="colum1">
+                    <img src="./img/rock.png" alt="rock" style="width: 165px;">
+                    <h3>Diário do Rock</h3>
+                    <h4>Figurótico</h4>
+                    <p>O Gaia, agora Grill (parte II)</p>
+                </div>
+
+                <div class="colum1">
+                    <img src="./img/rock.png" alt="rock" style="width: 165px;">
+                    <h3>Diário do Rock</h3>
+                    <h4>Figurótico</h4>
+                    <p>O Gaia, agora Grill (parte II)</p>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <section class="horo">
+            <div class="barra-horo">
+                <div class="barra-horo-txt">
+                    <h3>Horóscopo</h3>
+                    <p>Quarta-feira, 25</p>
+                </div>
+                <div class="por-horo">
+                    <p>por</p>
+                    <img src="./img/logo-personare@2x.png" alt="logo" style="width: 72px;">
+                </div>
+            </div>
+
+            
+            <div class="sec-horo-car-check">
+
+                <div class="sec-horo-div">
+                    <div class="img-horo">
+                        <img src="./img/touro@2x.png" alt="aries" style="width: 24px; height: 24px;">
+                    </div>
+                    <div class="sec-horo-div1">
+                        <p><strong>Touro</strong></p>
+                    </div>
+                </div>
+                <div class="sec-horo-div">
+                    <div class="img-horo">
+                        <img src="./img/touro@2x.png" alt="aries" style="width: 24px; height: 24px;">
+                    </div>
+                    <div class="sec-horo-div1">
+                        <p><strong>Touro</strong></p>
+                    </div>
+                </div>
+                <div class="sec-horo-div">
+                    <div class="img-horo">
+                        <img src="./img/touro@2x.png" alt="aries" style="width: 24px; height: 24px;">
+                    </div>
+                    <div class="sec-horo-div1">
+                        <p><strong>Touro</strong></p>
+                    </div>
+                </div>
+                <div class="sec-horo-div">
+                    <div class="img-horo">
+                        <img src="./img/touro@2x.png" alt="aries" style="width: 24px; height: 24px;">
+                    </div>
+                    <div class="sec-horo-div1">
+                        <p><strong>Touro</strong></p>
+                    </div>
+                </div>
+                <div class="sec-horo-div">
+                    <div class="img-horo">
+                        <img src="./img/touro@2x.png" alt="aries" style="width: 24px; height: 24px;">
+                    </div>
+                    <div class="sec-horo-div1">
+                        <p><strong>Touro</strong></p>
+                    </div>
+                </div>
+                <div class="sec-horo-div">
+                    <div class="img-horo">
+                        <img src="./img/touro@2x.png" alt="aries" style="width: 24px; height: 24px;">
+                    </div>
+                    <div class="sec-horo-div1">
+                        <p><strong>Touro</strong></p>
+                    </div>
+                </div>
+                <div class="sec-horo-div">
+                    <div class="img-horo">
+                        <img src="./img/touro@2x.png" alt="aries" style="width: 24px; height: 24px;">
+                    </div>
+                    <div class="sec-horo-div1">
+                        <p><strong>Touro</strong></p>
+                    </div>
+                </div>
+                <div class="sec-horo-div">
+                    <div class="img-horo">
+                        <img src="./img/touro@2x.png" alt="aries" style="width: 24px; height: 24px;">
+                    </div>
+                    <div class="sec-horo-div1">
+                        <p><strong>Touro</strong></p>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="txt-horo-check">
+                <p>Sol, Mercúrio e Marte seguem juntos pelo setor íntimo, podendo lhe trazer uma energia intensa e focada na estabilidade patrimonial. Contudo, é possível que você passe por uma série de obstáculos. A Lua se desloca para seu signo, o que tende a lhe fazer valorizar suas necessidades emocionais.</p>
+            </div>
+
+
+        </section>
+
+        <section class="sec-13">
+            <div class="title-button">
+                <div class="title-13">
+                    <h3>Lazer</h3>
+                    <img src="./img/link@2x.png" alt="seta" style="width: 14px; height: 14px;">
+                </div>
+                <div class="button-13">
+                    <button>sesc</button>
+                    <button>oktoberfest</button>
+                    <button>pianorquestra</button>
+
+                </div>
+            </div>
+                <div class="noticia">
+                    <div class="noticia-img">
+                        <img src="./img/cachorro.png" alt="photo">
+                    </div>
+                    <h3>Prefeito do Rio divulga vídeo com flagrante de incêndio criminoso</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="sec-1-btt">
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/comentar.svg" alt="Comentar-btt">Comentar</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/compartilhar.svg" alt="Compartilhar-btt">Compartilha</button>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        
+        <section class="sec-11">
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x-4.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="sec-13">
+            <div class="title-button">
+                <div class="title-13">
+                    <h3>Lazer</h3>
+                    <img src="./img/link@2x.png" alt="seta" style="width: 14px; height: 14px;">
+                </div>
+                <div class="button-13">
+                    <button>sesc</button>
+                    <button>oktoberfest</button>
+                    <button>pianorquestra</button>
+
+                </div>
+            </div>
+                <div class="noticia">
+                    <div class="noticia-img">
+                        <img src="./img/cachorro.png" alt="photo">
+                    </div>
+                    <h3>Prefeito do Rio divulga vídeo com flagrante de incêndio criminoso</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="sec-1-btt">
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/salvar.svg" alt="Salvar-btt">Salvar</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/comentar.svg" alt="Comentar-btt">Comentar</button>
+                        </div>
+                        <div class="sec-1-btt-1">
+                            <button><img src="./img/compartilhar.svg" alt="Compartilhar-btt">Compartilhar</button>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        
+        <section class="sec-11">
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x-4.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-11-noticias">
+                <div class="img-11-noticia">
+                    <img src="./img/photo@2x5.png" alt="Violência na zona oeste do Rio">
+                </div>
+                <div class="txt-11">
+                    <h3>Violência na zona oeste do Rio suspende aulas noturnas pelo 2º dia</h3>
+                    <p>25 de outubro de 2023, 09:33h</p>
+                    <div class="icon">
+                        <button><img src="./img/salvar.svg" alt="Salvar"></button>
+                        <button><img src="./img/comentar.svg" alt="Comentar"></button>
+                        <button><img src="./img/compartilhar.svg" alt="Compartilhar"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div id="more">
+            <div class="more-final">
+                <button>+ Carregar Mais</button>
+            </div>
+        </div>
+
+
+        <div class="barra-final1">
+            
+        </div>
+
+        <div class="barra-final">
+            <div class="barra-container">
+                <div class="final-container">
+                    <button class="btt-fim" title="btt-fim">                    
+                        <img src="./img/home.svg" alt="home">
+                    </button>
+                    <p>home</p>
+                </div>
+                <div class="final-container">
+                    <button class="btt-fim" title="btt-fim">                    
+                        <img src="./img/promoções.svg" alt="promoção">
+                    </button>
+                    <p>promoção</p>
+                </div>
+                <div class="final-container">
+                    <button class="btt-fim" title="btt-fim">                    
+                        <img src="./img/mídia.svg" alt="midia">
+                    </button>
+                    <p>midia</p>
+                </div>
+                <div class="final-container">
+                    <button class="btt-fim" title="btt-fim">                    
+                        <img src="./img/digital.svg" alt="digital">
+                    </button>
+                    <p>digital</p>
+                </div>
+                <div class="final-container">
+                    <button class="btt-fim" title="btt-fim">
+                        <img src="./img/conta.svg" alt="conta">
+                    </button>
+                    <p>conta</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
