@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="box" width="46" height="46" rx="10" transform="translate(314 608)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="sun" transform="translate(-314 -608)" clip-path="url(#clip-path)">
+    <g id="Grupo_7419" data-name="Grupo 7419" transform="translate(2916 -753)">
+      <circle id="Elipse_86" data-name="Elipse 86" cx="18" cy="18" r="18" transform="translate(-2585 1355)" fill="none" stroke="#fff" stroke-width="3"/>
+      <path id="Caminho_2309" data-name="Caminho 2309" d="M12,2V5" transform="translate(-2579 1341)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Caminho_2310" data-name="Caminho 2310" d="M12,21v3" transform="translate(-2579 1379)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Caminho_2311" data-name="Caminho 2311" d="M24,12H21" transform="translate(-2561 1361)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Caminho_2312" data-name="Caminho 2312" d="M5,12H2" transform="translate(-2599 1361)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Caminho_2313" data-name="Caminho 2313" d="M19.856,4.93,18.678,6.108" transform="translate(-2565.644 1346.859)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Caminho_2314" data-name="Caminho 2314" d="M6.107,18.678,4.929,19.856" transform="translate(-2593.142 1374.355)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Caminho_2315" data-name="Caminho 2315" d="M19.856,19.856l-1.178-1.178" transform="translate(-2565.644 1374.355)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Caminho_2316" data-name="Caminho 2316" d="M6.107,6.108,4.929,4.929" transform="translate(-2593.142 1346.859)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
