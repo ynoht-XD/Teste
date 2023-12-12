@@ -5,10 +5,168 @@ padding: 0;
 }
 body {
     font-family: 'Poppins', sans-serif;
+    width: 1300px;
+    margin: auto;
 }
+a {
+    color: #2F2F2F;
+}
+.header-top{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temp-header{
+    display: flex;
+}
+.header-mobile ul{
+    list-style: none;
+    display: flex;
+}
+
+.header-mobile {
+    display: none;
+}
+.redes-sociais {
+    display: flex;
+}
+.logo-header {
+    margin-right: 90px;
+}
+.temp-header {
+    margin-left: 0;
+
+}
+.btt-header {
+    margin-left: 88px;
+    margin-right: 88px;
+}
+.btt-header button {
+    background-color: transparent;
+    color: #D51C17;
+    border: none;
+    margin-right: 25px;
+}
+.search {
+    margin-right: 88px;
+}
+.search input{
+    border-radius: 10px;
+    padding: 10px;
+    width: 321px;
+}
+.face {
+    background-color: #D51C17;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.insta {
+    background-color: #D51C17;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.menu-header {
+    margin-top: 37px;
+}
+.menu-header span {
+    color: #D51C17;
+}
+.menu-header ul{
+    display: flex;
+    list-style: none;
+}
+.menu-header a{
+    color: #2F2F2F;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.sec-1, .sec-2, .sec-3 {
+    width: 1000px;
+    margin: auto;
+}
+
+.footer {
+    width: 1300px;
+}
+
+.foto-capa img {
+    margin-top: 18px;
+    height: 400px;
+}
+.sec-1 {
+    position: relative;
+    margin-bottom: 80px;
+}
+.contain-1 {
+    background-color: white;
+    position: absolute;
+    transform: translateX(0px) translateY(-80px);
+}
+.sec-2 {
+    margin-top: 200px;
+}
+
+.contain-2 {
+    display: flex;
+}
+.talk-sec-2 img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.talk-sec-2 h2 {
+    margin-top: 22px;
+    width: 357px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.talk-sec-2 h3{
+    text-align: center;
+    margin-top: 8px;
+    width: 357px;
+}
+
+
+
+
+
+
 @media (max-width: 778px){
+    main {
+        margin-top: 20px;
+    }
     body{
         width: 370px;
         margin: auto;
     }
+    .header-mobile ul{
+        list-style: none;
+        display: flex;
+        width: 360px;
+        overflow: hidden;
+    }
+    .sec-1 img {
+        width: 100%;
+    }
+    .sec-2 img {
+        width: 100%;
+    }
+    .sec-2 iframe {
+        width: 100%;
+    }
+
 }
