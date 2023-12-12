@@ -11,6 +11,7 @@ body {
 a {
     color: #2F2F2F;
 }
+
 .header-top{
     margin-top: 20px;
     display: flex;
@@ -121,6 +122,7 @@ a {
 
 .contain-2 {
     display: flex;
+    margin-bottom: 65px;
 }
 .talk-sec-2 img{
     align-items: center;
@@ -140,7 +142,12 @@ a {
     width: 357px;
 }
 
-
+.video {
+    width: 650px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 
 
