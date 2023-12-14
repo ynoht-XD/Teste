@@ -1,5 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
 * {
+
 margin: 0 auto;
 padding: 0;
 }
@@ -7,12 +16,17 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 1300px;
     margin: auto;
+    background-color: #F8F9FC;
 }
 a {
     color: #2F2F2F;
 }
+h1, h2, h3, h4, h5, h6 {
+    color: #2F2F2F;
+}
 p{
     font-size: 16px;
+    color: #2F2F2F;
 }
 .link-alter {
     display: flex;
@@ -82,11 +96,23 @@ article {
 }
 .search {
     margin-right: 88px;
+    position: relative;
+
 }
 .search input{
+
     border-radius: 10px;
     padding: 10px;
+    padding-left: 18px;
     width: 321px;
+    border: 1px solid #E5E5E5;
+}
+.search button{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    transform: translateX(-35px) translateY(10px);
+
 }
 .face {
     background-color: #D51C17;
@@ -110,13 +136,24 @@ article {
 }
 .menu-header {
     margin-top: 37px;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    padding-top: 15px;
+    padding-bottom: 17px;
 }
+
 .menu-header span {
     color: #D51C17;
 }
 .menu-header ul{
     display: flex;
     list-style: none;
+}
+.menu-header li {
+}
+.menu-header li:hover {
+    border-bottom: 2px solid #1f831c;
+    border-length: 20px;
 }
 .menu-header a{
     color: #2F2F2F;
@@ -128,9 +165,10 @@ article {
 .sec-1, .sec-2, .sec-3 {
     width: 1000px;
     margin: auto;
-    background-color: #F8F9FC;
 }
-
+article p {
+    padding-bottom: 40px;
+}
 .footer {
     width: 1300px;
 }
@@ -139,6 +177,9 @@ article {
     margin-top: 18px;
     height: 400px;
 }
+
+
+
 .sec-1 {
     position: relative;
     margin-bottom: 80px;
@@ -180,6 +221,52 @@ article {
     width: 900px;
     margin-bottom: 55px;
 }
+.btt-left {
+    margin-top: 32px;
+    transform: translateX(-83px);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.btt-right {
+    margin-top: 32px;
+    transform: translateX(83px);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+}
+.print button {
+    border: none;
+    background-color: transparent;
+}
+.btt-social {
+    display: flex;
+    flex-direction: column;
+}
+.btt-social button {
+    width: 18px;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 20px;
+
+}
+.btt-ouvir p {
+    font-size: 10px;
+    color: #D51C17;
+    font-family: 'Poppins-bold';
+    text-align: center;
+    margin-bottom: 33px;
+}
+.btt-ouvir button {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+
 .sec-2 {
     margin-top: 470px;
 }
@@ -221,16 +308,16 @@ article {
 
 
 .video {
-    width: 650px;
-    margin: auto;
-    margin-top: 40px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 40px;
 }
 .music {
     width: 569px;
-    margin-top: 88px;
-    margin-bottom: 40px;
-    margin: auto;
+    margin-top: 48px;
+    padding-bottom: 40px;
+
 }
 .for-layout{
     display: flex;
@@ -276,10 +363,30 @@ article {
     width: 688px;
     color: #D51C17;
 }
+.galeria {
+    width: 900px;
+    margin: auto;
+}
 .galeria img {
     width: 900px;
     height: 470px;
     margin-top: 55px;
+}
+.input-sec-3 {
+    width: 90px;
+    margin: auto;
+}
+.galeria input {
+    appearance: none;
+    width: 10px;
+    padding: 10px 10px 10px 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: #2F2F2F solid 2px;
+    margin-right: 10px;
+}
+.galeria input:hover {
+    background-color: #2F2F2F;
 }
 
 
@@ -308,11 +415,16 @@ article {
     font-weight: bolder;
 }
 
+
+footer {
+    background-color: #EBEBEB;
+}
 .header-footer {
     display: flex;
     margin: auto;
     margin-top: 125px;
     width: 1200px;
+    padding-top: 50px;
 
 
 } 
@@ -345,10 +457,21 @@ article {
 .logo-footer {
     margin: 0;
     margin-right: 905px;
+    margin-top: ;
 }
 .redes-sociais {
     margin: 0;
+
 }
+.logo-footer img{
+    width: 203px;
+    height: 70px;
+}
+
+
+
+
+
 
 @media (max-width: 778px){
     main {
