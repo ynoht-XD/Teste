@@ -379,7 +379,7 @@ article p {
 .galeria input {
     appearance: none;
     width: 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
     height: 10px;
     border-radius: 50%;
     border: #2F2F2F solid 2px;
@@ -388,7 +388,14 @@ article p {
 .galeria input:hover {
     background-color: #2F2F2F;
 }
-
+.galeria figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C7C7C;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
 
 
 .sec-4 {
@@ -467,11 +474,21 @@ footer {
     width: 203px;
     height: 70px;
 }
+.footer-and {
+    border-top: 1px solid #C2C2C2;
+    height: 65px;
+    width: 90%;
+    display: flex;
 
+}
 
+.footer-and p {
+    padding-top: 25px;
+}
 
-
-
+.and-logo {
+    padding-top:16px;
+}
 
 @media (max-width: 778px){
     main {
