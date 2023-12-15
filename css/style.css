@@ -35,6 +35,16 @@ p{
     margin-top: 40px;
 
 }
+.txt-play h3{
+    font-family: Poppins-bold;
+    color: #D51C17;
+
+
+}
+.txt-play p {
+    font-size: 10px;
+    color: #9F9F9F;
+}
 article {
     width: 900px;
 }
@@ -64,10 +74,6 @@ article {
     justify-content: center;
 }
 .temp-header{
-    display: flex;
-}
-.header-mobile ul{
-    list-style: none;
     display: flex;
 }
 
@@ -149,8 +155,7 @@ article {
     display: flex;
     list-style: none;
 }
-.menu-header li {
-}
+
 .menu-header li:hover {
     border-bottom: 2px solid #1f831c;
     border-length: 20px;
@@ -174,8 +179,11 @@ article p {
 }
 
 .foto-capa img {
-    margin-top: 18px;
+    width: 1300px;
     height: 400px;
+    
+    margin: auto;
+    margin-top: 18px;
 }
 
 
@@ -275,6 +283,9 @@ article p {
     margin-top: 300px;
     display: flex;
     margin-bottom: 65px;
+}
+.foto-figure img{
+    width: 425px;
 }
 .talk-sec-2 {
     width: 425px;
@@ -489,7 +500,9 @@ footer {
 .and-logo {
     padding-top:16px;
 }
-
+.btt-compartilhar {
+    display: none;
+}
 @media (max-width: 778px){
     main {
         margin-top: 20px;
@@ -498,11 +511,53 @@ footer {
         width: 370px;
         margin: auto;
     }
-    .header-mobile ul{
-        list-style: none;
+    .header-mobile {
         display: flex;
-        width: 360px;
+
+    }
+    .logo-header {
+        margin-left: 20px;
+    }
+    .header-top {
+        display: flex;
+
+    }
+    .btt-header, .search, .redes-sociais, .btt-social{
+        display: none;
+    }
+    .menu-header {
         overflow: hidden;
+        
+    }
+    .sec-1, .sec-2, .sec-3 {
+        width: 360px;
+        margin: auto;
+    }
+    .contain-1 h1 {
+        font-size: 22px;
+        width: 320px;
+    }
+    .contain-1 h4 {
+        font-size: 14px;
+        width: 320px;
+    }
+    .contain-1 h5 {
+        font-size: 16px;
+        width: 320px;
+    }
+    .contain-1 {
+        position: relative;
+        transform: translateY(0);
+
+    }
+    article {
+        width: 320px;
+        font-size: 16px;
+    }
+
+    .menu-header li {
+        padding-right: 45px;
+        width: 30%;
     }
     .sec-1 img {
         width: 100%;
@@ -512,6 +567,111 @@ footer {
     }
     .sec-2 iframe {
         width: 100%;
+    }
+    .foto-capa {
+        width: 360px;
+    }
+    .foto-capa img {
+        width: 360px;
+    }
+    .btt-geral {
+        display: flex;
+    }
+    .btt-left {
+        display: flex;
+        flex-direction: row;
+        transform: translateX(0);
+        position: relative;
+    }
+    .btt-right {
+        display: flex;
+        flex-direction: row;
+        transform: translateX(0);
+        position: relative;
+    }
+    .btt-compartilhar {
+        display: flex;
+    }
+    .fot-figure img {
+        width: 320px;
+    }
+    .sec-2-talk img {
+        width: 50px;
+        height: 40px;
+    }
+    .contain-2 {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .video {
+        width: 320px;
+        margin: auto;
+    }
+    .video iframe{
+        width: 320px;
+        height: 180px;
+    }
+    .music  {
+        width: 320px;
+        margin: auto;
+    }
+    .music iframe{
+        width: 320px;
+        height: 180px;
+    }
+    .sec-3 h3{
+        width: 320px;
+        
+        font-size: 20px;
+        font-family: Poppins-bold;
+    }
+    .galeria {
+        width: 320px;
+        height: 320px;
+        background-color: #C2C2C2;
+    }
+    .galeria img{
+        width: 320px;
+        height: 166px;
+    }
+    .sec-4 {
+        width: 320px;
+    }
+    .for-layout {
+        display: block;
+        width: 320px;
+        margin: 0 auto;
+    }
+    footer {
+        width: 360px;
+        height: 1016px;
+
+
+    }
+    .links-footer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 320px;
+
+
+    }
+    .list-footer {
+        display: flex;
+        justify-content: space-between
+    }
+    .link-alter img{
+        width: 14px;
+        height: 17px;
+
+    }
+    .txt-play h3{
+        font-size: 12px;
+
+
+    }
+    .txt-play p {
+        font-size: 10px;
     }
 
 }
