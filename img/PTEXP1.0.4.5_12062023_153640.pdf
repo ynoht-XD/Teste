@@ -1,0 +1,496 @@
+%PDF-1.2
+1 0 obj <<
+/CreationDate(D:20231206153702)
+/Creator(FortesReport v3.23 \251 Copyright © 1999-2004 Fortes Informática)
+>> endobj
+2 0 obj <<
+/Type/Catalog
+/Pages 3 0 R
+>> endobj
+5 0 obj <<
+/Type/Page
+/Parent 3 0 R
+/Resources 4 0 R
+/MediaBox [ 0 0 595.5 842.25 ]
+/Contents 6 0 R
+>> endobj
+6 0 obj <<
+/Length 7 0 R
+>>
+stream
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+30 553.5 0.75 156.75 re
+f
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+30 709.5 534.75 0.75 re
+f
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+564 553.5 0.75 156.75 re
+f
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+30 553.5 534.75 0.75 re
+f
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+362.25 618.75 Td
+(0) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+37.5 618.75 Td
+(Total de Atendimentos Ambulatoriais Individualizados Exportados) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+201.75 600.75 Td
+(0) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+37.5 600.75 Td
+(Total de Internações Exportadas) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+37.5 654 Td
+(Total de Registros Lidos) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+217.5 654 Td
+(3) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+37.5 582.75 Td
+(Total de Atendimentos Ambulatoriais Consolidados Exportados) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+349.5 582.75 Td
+(582) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+37.5 564.75 Td
+(Total de Atendimentos Inseridos:) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+199.5 564.75 Td
+(582) Tj
+ET
+Q
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+30 709.5 0.75 48.75 re
+f
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+30 757.5 534.75 0.75 re
+f
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+564 709.5 0.75 48.75 re
+f
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+30 709.5 534.75 0.75 re
+f
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+30 757.5 0.75 54.75 re
+f
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+30 811.5 534.75 0.75 re
+f
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+564 757.5 0.75 54.75 re
+f
+0.75 w
+0 J
+[] 0 d
+0 0 0 RG
+0 0 0 rg
+30 757.5 534.75 0.75 re
+f
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+447.75 798 Td
+(Versão 1.0.4.5) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+73.5 668.25 Td
+() Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+43.5 507.75 Td
+(Assinatura:_________________________________) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+319.5 510 Td
+(Data: ___/___/______) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+141 798 Td
+(CIHA - Comunicação de Informação Hospitalar e Ambulatorial - ) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+33 798 Td
+(MS-DATASUS) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+213 780 Td
+() Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+213 762 Td
+(Protocolo de Atendimentos Exportados) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+456 762 Td
+(Data:) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+483.75 762 Td
+(06/12/2023) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+36 737.25 Td
+(CNES:) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+78 737.25 Td
+(6097367) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+150 737.25 Td
+(Prestador:) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+204 737.25 Td
+(ACRESC) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+36 719.25 Td
+(Gestor:) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+78 719.25 Td
+(ACRESC  -  UF: AL  -  Município: 270670) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+37.5 689.25 Td
+(Arquivo:) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+109.5 689.25 Td
+(6097367202311.CHA) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+37.5 671.25 Td
+(Competência:) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+109.5 671.25 Td
+(202311) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+37.5 636.75 Td
+(Total Exportado) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+121.5 636.75 Td
+(3) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F2 10 Tf
+199.5 671.25 Td
+(Data/Hora:) Tj
+ET
+Q
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+253.5 671.25 Td
+(06/12/2023 15:36:40) Tj
+ET
+Q
+endstream
+endobj
+7 0 obj
+3350
+endobj
+8 0 obj <<
+/Type/Font/Subtype/TrueType/Name/F1/BaseFont/Arial
+/FirstChar 30
+/LastChar 255
+/Widths [
+750 750 278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 278 
+556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 556 1015 667 
+667 722 722 667 611 778 722 278 500 667 556 833 722 778 667 778 722 667 
+611 722 667 944 667 667 611 278 278 278 469 556 333 556 556 500 556 556 
+278 556 556 222 222 500 222 833 556 556 556 556 333 500 278 556 500 722 
+500 500 500 334 260 334 584 750 556 750 222 556 333 1000 556 556 333 1000 
+667 333 1000 750 611 750 750 222 222 333 333 350 556 1000 333 1000 500 333 
+944 750 500 667 278 333 556 556 556 556 260 556 333 737 370 556 584 333 
+737 552 400 549 333 333 333 576 537 333 333 333 365 556 834 834 834 611 
+667 667 667 667 667 667 1000 722 667 667 667 667 278 278 278 278 722 722 
+778 778 778 778 778 584 778 722 722 722 722 667 667 611 556 556 556 556 
+556 556 889 500 556 556 556 556 278 278 278 278 556 556 556 556 556 556 
+556 549 611 556 556 556 556 500 556 500 
+]
+/FontDescriptor 10 0 R
+/Encoding/WinAnsiEncoding
+>> endobj
+10 0 obj <<
+/Type/FontDescriptor
+/FontName/Arial
+/Flags 32
+/FontBBox [ -665 -325 2000 1040 ]
+/MissingWidth 0
+/StemV 73
+/StemH 73
+/ItalicAngle 0
+/CapHeight 500
+/XHeight 250
+/Ascent 905
+/Descent 212
+/Leading 117
+/MaxWidth 2665
+/AvgWidth 441
+>> endobj
+9 0 obj <<
+/Type/Font/Subtype/TrueType/Name/F2/BaseFont/Arial,Bold
+/FirstChar 30
+/LastChar 255
+/Widths [
+750 750 278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 278 
+556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 611 975 722 
+722 722 722 667 611 778 722 278 556 722 611 833 722 778 667 778 722 667 
+611 722 667 944 667 667 611 333 278 333 584 556 333 556 611 556 611 556 
+333 611 611 278 278 556 278 889 611 611 611 611 389 556 333 611 556 778 
+556 556 500 389 280 389 584 750 556 750 278 556 500 1000 556 556 333 1000 
+667 333 1000 750 611 750 750 278 278 500 500 350 556 1000 333 1000 556 333 
+944 750 500 667 278 333 556 556 556 556 280 556 333 737 370 556 584 333 
+737 552 400 549 333 333 333 576 556 333 333 333 365 556 834 834 834 611 
+722 722 722 722 722 722 1000 722 667 667 667 667 278 278 278 278 722 722 
+778 778 778 778 778 584 778 722 722 722 722 667 667 611 556 556 556 556 
+556 556 889 556 556 556 556 556 278 278 278 278 611 611 611 611 611 611 
+611 549 611 611 611 611 611 556 611 556 
+]
+/FontDescriptor 10 0 R
+/Encoding/WinAnsiEncoding
+>> endobj
+10 0 obj <<
+/Type/FontDescriptor
+/FontName/Arial,Bold
+/Flags 32
+/FontBBox [ -628 -376 2000 1056 ]
+/MissingWidth 0
+/StemV 73
+/StemH 73
+/ItalicAngle 0
+/CapHeight 500
+/XHeight 250
+/Ascent 905
+/Descent 212
+/Leading 117
+/MaxWidth 2628
+/AvgWidth 479
+>> endobj
+4 0 obj <<
+/ProcSet [ /PDF/Text/ImageB ]
+/Font <<
+/F1 8 0 R
+/F2 9 0 R
+>>
+/XObject <<
+>>
+>> endobj
+3 0 obj <<
+/Type/Pages
+/Count 1
+/MediaBox [ 0 0 595.5 842.25 ]
+/Kids [ 5 0 R ]
+>> endobj
+xref
+0 11
+0000000000 65535 f
+0000000010 00000 n
+0000000142 00000 n
+0000006604 00000 n
+0000006497 00000 n
+0000000194 00000 n
+0000000311 00000 n
+0000003719 00000 n
+0000003742 00000 n
+0000005115 00000 n
+0000006226 00000 n
+trailer
+<<
+/Size 11
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+6699
+%%EOF

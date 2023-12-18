@@ -477,6 +477,9 @@ footer {
     margin-right: 905px;
     margin-top: ;
 }
+.empregos-potica2 {
+    padding-top: 20px;
+}
 .redes-sociais {
     margin: 0;
 
@@ -503,6 +506,9 @@ footer {
 .btt-compartilhar {
     display: none;
 }
+
+
+
 @media (max-width: 778px){
     main {
         margin-top: 20px;
@@ -673,5 +679,25 @@ footer {
     .txt-play p {
         font-size: 10px;
     }
+    .list-footer {
 
+        margin-top: 44px;
+        width: 50%;
+
+
+    }
+    .list-footer li {
+        font-size: 12px;
+
+    }
+    .list-footer2 {
+        font-size: 12px;
+        width: 50%;
+        display: flex;
+        left: 0;
+        flex-direction: column;
+    }
+    .empregos-potica {
+        padding-top: 44px;
+    }
 }
